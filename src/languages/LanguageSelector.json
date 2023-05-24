@@ -1,0 +1,63 @@
+{
+    "az": {
+        "navbar": {
+            "home": "Əsas Səhifə",
+            "media": "Əlaqə",
+            "about": "Haqqımda",
+            "showreels": "Videolar",
+            "gallery": "Qalereya",
+            "resume": "Xülasə"
+        },
+        "about": {
+            "title": "MƏN HAQQINDA!",
+            "desc": "Həkimlərim məni Dr. B adlandırır. Mən sertifikalı bir ürolog və robot cərrahıyam. Hazırda South Lake Hospital & Orlando Health-da The PUR Clinic (Fərdi Ürologiya və Robotika) direktoru kimi çalışıram. TEDx mühazirəsi verdim və yerli və milli media mənbələri üçün sağlamlıq eksperti və müxbir olmağa davam edirəm. Drive 4 Men's Health adlı qeyri-kommersiya təşəbbüsünün qurucusuyam. Bu təşəbbüs hər bir milyə qeyri-kommersiya səyahət vasitəsilə həyatı uzatmağı ümid edir, ki, bu da kişiləri daha yaxşı yeməyə, aktiv olmağa və profilaktik tibbi yoxlamalara cəlb etməyə təşviq edir.",
+            "button": "Özgeçmişi gör"
+        }
+    },
+    "en": {
+        "navbar": {
+            "home": "Home",
+            "media": "Media Inquires",
+            "about": "About",
+            "showreels": "Showreels",
+            "gallery": "Gallery",
+            "resume": "Resume"
+        },
+        "about": {
+            "title": "ABOUT ME!",
+            "desc": "My patients call me Dr B. I am a board certified urologic and robotic surgeon. Currently I am managing director of The PUR Clinic (Personalized Urology & Robotics) at South Lake Hospital & Orlando Health. I have given a TEDx talk and continue to be a health expert and contributor for local and national media outlets. I am co-founder of the non-profit initiative, Drive 4 Men’s Health, which hopes to add years to life, one mile at a time by encouraging men to eat better, get active, and engage in preventative medical screenings.",
+            "button": "See Resume"
+        }
+    },
+    "ru": {
+        "navbar": {
+            "home": "Главная",
+            "media": "Запросы СМИ",
+            "about": "О нас",
+            "showreels": "Шоурилы",
+            "gallery": "Галерея",
+            "resume": "Резюме"
+        },
+        "about": {
+            "title": "ОБО МНЕ!",
+            "desc": "Мои пациенты называют меня доктором Б. Я сертифицированный уролог и робототехнический хирург. В настоящее время я являюсь исполнительным директором клиники PUR (Персонализированная урология и робототехника) в госпитале South Lake и Орландо. Я выступал на TEDx и продолжаю быть экспертом по здоровью и сотрудником местных и национальных СМИ. Я являюсь сооснователем некоммерческой инициативы Drive 4 Men's Health, которая надеется добавить годы к жизни, одну милю за раз, поощряя мужчин к лучшему питанию, активному образу жизни и профилактическим медицинским обследованиям.",
+            "button": "Посмотреть резюме"
+        }
+    },
+    "de" : {
+        "navbar": {
+          "home": "Startseite",
+          "media": "Medienanfragen",
+          "about": "Über uns",
+          "showreels": "Showreels",
+          "gallery": "Galerie",
+          "resume": "Lebenslauf"
+        },
+        "about": {
+          "title": "ÜBER MICH!",
+          "desc": "Meine Patienten nennen mich Dr. B. Ich bin ein zertifizierter Urologe und Roboterchirurg. Derzeit bin ich Geschäftsführer der PUR-Klinik (Personalisierte Urologie & Robotik) am South Lake Hospital & Orlando Health. Ich habe einen TEDx-Vortrag gehalten und bin weiterhin Gesundheitsexperte und Beitragender für lokale und nationale Medien. Ich bin Mitbegründer der gemeinnützigen Initiative Drive 4 Men's Health, die Männer dazu ermutigt, sich besser zu ernähren, aktiv zu sein und sich präventiven medizinischen Untersuchungen zu unterziehen, um Jahre zum Leben hinzuzufügen, eine Meile nach der anderen.",
+          "button": "Lebenslauf anzeigen"
+        }
+      }
+      
+}

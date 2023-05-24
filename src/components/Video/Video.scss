@@ -1,0 +1,14 @@
+.videoWrapper{
+    padding: 30px 0px;
+    height: max-content;
+    background-color: #33507D;
+    
+    .videos{
+        justify-content: center;
+        video{
+            &:nth-child(2){
+                margin-top: 30px !important;
+            }
+        }
+    }
+}

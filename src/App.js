@@ -1,24 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { Router,Routes,Route } from 'react-router';
+import { Navbar } from './components/Navbar/Navbar';
+import { Index } from './components/Index/Index';
+import { languageContext } from './hooks';
+import { useContext, useEffect, useState } from 'react';
 function App() {
+  const [lang,setLang] = useState('en')
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <languageContext.Provider value={{lang,setLang}}>
+        <Navbar/>
+      <Index/>
+    </languageContext.Provider>
   );
 }
 
