@@ -18,18 +18,18 @@ export const Navbar = () => {
                 <div className="nav-left col-lg-2 col-sm-6 col-6">
                     <ul className="leftUl">
                         <li>
-                            <a href="" target="_blank">
+                            <a href="https://www.facebook.com/profile.php?id=100071974267605" target="_blank">
                                 <ImFacebook color="#40739e" />
                             </a>
                         </li>
                         <li>
-                            <a href="" target="_blank">
+                            <a href="https://twitter.com/hikmatismayilov" target="_blank">
                                 <ImTwitter color="#48dbfb" />
 
                             </a>
                         </li>
                         <li>
-                            <a href="" target="_blank">
+                            <a href="https://www.instagram.com/doc.ismayilov/?hl=en" target="_blank">
                                 <BsInstagram color="#ee5253" />
 
                             </a>
@@ -41,7 +41,7 @@ export const Navbar = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="" target="_blank">
+                            <a href="https://www.linkedin.com/in/hikmat-ismayilov-aa8460a0/" target="_blank">
                                 <AiFillLinkedin color="#273c75" />
 
                             </a>

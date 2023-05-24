@@ -3,6 +3,7 @@ header {
     background-color: none;
     width: 100%;
     top: 0;
+    z-index: 99999;
     nav {
         flex-wrap: wrap;
         height: 85px;
