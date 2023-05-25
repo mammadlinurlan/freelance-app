@@ -1,11 +1,14 @@
 .gallery{
     height: max-content;
     padding-top: 30px;
-    background-color: #3178BE;
+    // background-color: #3178BE;
+    background-color: white;
+
     .galleryBorder{
          
-            height: 145px;
-            border: 10px white solid;
+        height: 100%;
+        padding: 10px 0px;
+            border: 2px black solid;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -14,7 +17,7 @@
                 font-weight: 900;
                 letter-spacing: 5px;
                 text-align: center;
-                color: white;
+                color: black;
                 margin: 0;
                 font-family: "Raleway", sans-serif;
             }
@@ -24,7 +27,7 @@
         padding-top: 30px;
         margin: 0;
         text-align: center !important;
-        color: white !important;
+        color: black !important;
         display: inline-block;
         text-decoration: none;
         width: 100%;

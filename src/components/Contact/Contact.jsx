@@ -40,7 +40,7 @@ export const Contact = () => {
         <div id="contactus" className="contactus">
             <div className="container">
                 <div className="col-lg-8 col-12 contactWrapper">
-                    <div className="contact-top col-lg-12 col-12">
+                    <div className="contact-top">
                         <h1>{DATA[`${LANG.lang}`].contact.title}</h1>
                     </div>
                     <div className="contact-bottom col-lg-12 col-12">
