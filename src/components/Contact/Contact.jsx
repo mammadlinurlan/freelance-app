@@ -25,7 +25,7 @@ export const Contact = () => {
                 timer: 1500
               })
               setTimeout(()=>{
-                navigate(0)
+                navigate(0);
               },1500)
         })
         .catch((err)=>{
@@ -37,7 +37,7 @@ export const Contact = () => {
         })
     }
     return (
-        <div className="contactus">
+        <div id="contactus" className="contactus">
             <div className="container">
                 <div className="col-lg-8 col-12 contactWrapper">
                     <div className="contact-top col-lg-12 col-12">

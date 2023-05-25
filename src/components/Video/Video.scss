@@ -1,11 +1,31 @@
 .videoWrapper{
     padding: 30px 0px;
     height: max-content;
-    background-color: #33507D;
-    
+    background-color: #3178BE;
+    .videoBorder {
+        overflow: scroll;
+        height: 145px;
+        border: 10px white solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: 35px;
+            font-weight: 900;
+            letter-spacing: 5px;
+            text-align: center;
+            color: white;
+            margin: 0;
+            font-family: "Raleway", sans-serif;
+        }
+    }
     .videos{
+      
         justify-content: center;
         video{
+            &:first-child{
+                margin-top: 30px;
+            }
             &:nth-child(2){
                 margin-top: 30px !important;
             }

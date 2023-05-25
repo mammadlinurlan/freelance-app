@@ -7,7 +7,7 @@ export const Slider = () => {
 
             </div>
         </div> */}
-          <div className="sliderImage">
+          <div id='home' className="sliderImage">
 
         </div>
         </>

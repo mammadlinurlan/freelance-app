@@ -7,7 +7,7 @@ let LANGUAGE_DATA = require('../../languages/LanguageSelector.json')
 export const About = () => {
    const LANG = useContext(languageContext)
     return(
-        <div className='aboutWrapper'>
+        <div id='aboutsection' className='aboutWrapper'>
             <div className='container'>
                 <div className='forAboutImage col-lg-5 col-12 col-sm-12'>
                     <img src='/docpp.jpeg' />

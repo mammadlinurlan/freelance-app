@@ -6,11 +6,11 @@
             "about": "Haqqımda",
             "showreels": "Videolar",
             "gallery": "Qalereya",
-            "resume": "Xülasə"
+            "resume": "Xidmətlər"
         },
         "about": {
             "title": "MƏN HAQQINDA!",
-            "desc": "Həkimlərim məni Dr. B adlandırır. Mən sertifikalı bir ürolog və robot cərrahıyam. Hazırda South Lake Hospital & Orlando Health-da The PUR Clinic (Fərdi Ürologiya və Robotika) direktoru kimi çalışıram. TEDx mühazirəsi verdim və yerli və milli media mənbələri üçün sağlamlıq eksperti və müxbir olmağa davam edirəm. Drive 4 Men's Health adlı qeyri-kommersiya təşəbbüsünün qurucusuyam. Bu təşəbbüs hər bir milyə qeyri-kommersiya səyahət vasitəsilə həyatı uzatmağı ümid edir, ki, bu da kişiləri daha yaxşı yeməyə, aktiv olmağa və profilaktik tibbi yoxlamalara cəlb etməyə təşviq edir.",
+            "desc": "Mən Hikmət İsmayılov 2012-ci ildən etibarən Almaniyada uro-onkoloq olaraq çalışıram. “Heidelberg Universitet klinikasında”, “Eberbach şəhər xəstəxanasın”-da daha sonra “Ostfildern Medius-Klinikasın”da rezedentura keçdikdən sonra “Mönchengladbach şəhər xəstəxanasın”-da yüksək ixtisaslı (Facharzt) uro-onkoloq olaraq işləmişəm. 2023cü ildən etibarən “Bad-Mergentheim xəstəxanasın”-da məsləhətçi uro-onkoloq çalışıram. 2022-ci ildə Almaniyada “Medikamentoz xərçəng terapiyası” (Zusatzbezeichnung Medikamentöse Tumortherapie) əlavə kvalifikasiya qazanmışam.",
             "button": "Özgeçmişi gör"
         },
         "contact": {
@@ -21,20 +21,39 @@
             "email": "E-poçt",
             "message": "Mesaj",
             "send": "Göndər"
+        },
+        "services": {
+            "title": "Müayinə və müalicə istiqamətləri",
+            "serviceArray": [
+                "Prostat hiperplaziyası əməliyyatları (TUR-P, HoLEP, ThuLEP, Urolift, Rezum, açıq Enukliasiya)",
+                "Sidik kisəsi, sidik axarı və böyrək ləyəni xərçəngi diaqnostika və qapalı operativ müalicəsi",
+                "Metastaz vermiş sidik kisəsi, sidik axarı və böyrək ləyəni xərçəngi zamanı diaqnostika, ximiya, immun terapiya",
+                "Prostat xərçəngi zamanı hormonal, ximiya və cərrahi müalicə",
+                "Böyrək xərçəngi cərrahiyəsi",
+                "Metastaz vermiş böyrək xərçəngi zamanı immun, ximiya terapiya",
+                "Hodan xərçəngi diaqnostikası və cərrahi müalicəsi",
+                "Metastaz vermiş hodan xərçəngi zamanı diaqnostika və ximiya terapiya",
+                "Sidik yolları daşları əməliyyatları (böyrək daşları, sidik axarı və sidik kisəsi daşları)",
+                "Sidik yolları daralmaları diaqnostikası və cərrahiyəsi",
+                "Sidik qaçırma diaqnostikası və əməliyyatları",
+                "Uşaq urologiyası (konservativ və operativ)",
+                "Xarici cinsiyyət üzvləri üçün cərrahiyə və digərləri",
+                "Sidik yolları darlıqları diaqnostikası və cərrahi müalicəsi"
+            ]
         }
     },
     "en": {
         "navbar": {
             "home": "Home",
-            "media": "Media Inquires",
+            "media": "Contact",
             "about": "About",
             "showreels": "Showreels",
             "gallery": "Gallery",
-            "resume": "Resume"
+            "resume": "Services"
         },
         "about": {
             "title": "ABOUT ME!",
-            "desc": "My patients call me Dr B. I am a board certified urologic and robotic surgeon. Currently I am managing director of The PUR Clinic (Personalized Urology & Robotics) at South Lake Hospital & Orlando Health. I have given a TEDx talk and continue to be a health expert and contributor for local and national media outlets. I am co-founder of the non-profit initiative, Drive 4 Men’s Health, which hopes to add years to life, one mile at a time by encouraging men to eat better, get active, and engage in preventative medical screenings.",
+            "desc": "I am Hikmət İsmayılov, and since 2012, I have been working as a uro-oncologist in Germany. I worked at Heidelberg University Clinic, Eberbach City Hospital, and later at Ostfildern Medius Clinic during my residency. After that, I worked as a specialist uro-oncologist (Facharzt) at Mönchengladbach City Hospital. Since 2023, I have been working as a consultant uro-oncologist at Bad-Mergentheim Hospital. In 2022, I obtained an additional qualification in `Medicamentous Cancer Therapy` (Zusatzbezeichnung Medikamentöse Tumortherapie) in Germany.",
             "button": "See Resume"
         },
         "contact": {
@@ -45,20 +64,39 @@
             "email": "Email",
             "message": "Message",
             "send": "Send"
+        },
+        "services": {
+            "title": "Examination and treatment directions",
+            "serviceArray": [
+                "Prostate Hyperplasia surgeries (TUR-P, HoLEP, ThuLEP, Urolift, Rezum, open Enucleation)",
+                "Diagnostic and minimally invasive surgical treatment of Bladder, Ureter, and Kidney cancers",
+                "Diagnostics, Chemotherapy, and Immunotherapy for metastatic Bladder, Ureter, and Kidney cancers",
+                "Hormonal, Chemotherapy, and Surgical treatment during Prostate cancer",
+                "Surgery for Kidney cancer",
+                "Immunotherapy and Chemotherapy for metastatic Kidney cancer",
+                "Diagnostic and surgical treatment of Testicular cancer",
+                "Diagnostic and Chemotherapy for metastatic Testicular cancer",
+                "Urinary Tract Stones surgeries (Kidney stones, Ureteral stones, Bladder stones)",
+                "Diagnosis and surgical treatment of Urinary Tract strictures",
+                "Diagnosis and surgeries for Urinary Incontinence",
+                "Pediatric Urology (conservative and operative)",
+                "Surgical procedures for Transgender individuals and others",
+                "Diagnosis and surgical treatment of Urethral strictures"
+            ]
         }
     },
     "ru": {
         "navbar": {
             "home": "Главная",
-            "media": "Запросы СМИ",
+            "media": "Контакт",
             "about": "О нас",
             "showreels": "Шоурилы",
             "gallery": "Галерея",
-            "resume": "Резюме"
+            "resume": "Услуги"
         },
         "about": {
             "title": "ОБО МНЕ!",
-            "desc": "Мои пациенты называют меня доктором Б. Я сертифицированный уролог и робототехнический хирург. В настоящее время я являюсь исполнительным директором клиники PUR (Персонализированная урология и робототехника) в госпитале South Lake и Орландо. Я выступал на TEDx и продолжаю быть экспертом по здоровью и сотрудником местных и национальных СМИ. Я являюсь сооснователем некоммерческой инициативы Drive 4 Men's Health, которая надеется добавить годы к жизни, одну милю за раз, поощряя мужчин к лучшему питанию, активному образу жизни и профилактическим медицинским обследованиям.",
+            "desc": "Меня зовут Хикмет Исмайылов, и с 2012 года я работаю уро-онкологом в Германии. Я работал в клинике университета Гайдельберга, городской больнице Эбербаха, а затем в клинике Медиус в городе Остфильдерн во время резидентуры. После этого я работал в городской больнице Мёнхенгладбах как высококвалифицированный уро-онколог (Facharzt). С 2023 года я работаю в больнице Бад-Мергентгайм в качестве консультанта-уро-онколога. В 2022 году я получил дополнительную квалификацию по `Медикаментозной терапии рака` (Zusatzbezeichnung Medikamentöse Tumortherapie) в Германии.",
             "button": "Посмотреть резюме"
         },
         "contact": {
@@ -69,20 +107,39 @@
             "email": "Электронная почта",
             "message": "Сообщение",
             "send": "Отправить"
+        },
+        "services": {
+            "title": "Направления обследования и лечения",
+            "serviceArray": [
+                "Операции по гиперплазии предстательной железы (TUR-P, HoLEP, ThuLEP, Urolift, Rezum, открытая Энуклеация)",
+                "Диагностика и минимально инвазивное хирургическое лечение рака мочевого пузыря, мочеточника и почек",
+                "Диагностика, химиотерапия и иммунотерапия при метастатическом раке мочевого пузыря, мочеточника и почек",
+                "Гормональное, химиотерапевтическое и хирургическое лечение рака предстательной железы",
+                "Операции при раке почки",
+                "Иммунотерапия и химиотерапия при метастатическом раке почки",
+                "Диагностика и хирургическое лечение рака яичка",
+                "Диагностика и химиотерапия при метастатическом раке яичка",
+                "Операции по удалению камней мочевыводящих путей (камни почки, мочеточника и мочевого пузыря)",
+                "Диагностика и хирургическое лечение стенозов мочевыводящих путей",
+                "Диагностика и операции при недержании мочи",
+                "Детская урология (консервативное и оперативное лечение)",
+                "Хирургические операции для трансгендерных лиц и других",
+                "Диагностика и хирургическое лечение стенозов уретры"
+            ]
         }
     },
     "de": {
         "navbar": {
             "home": "Startseite",
-            "media": "Medienanfragen",
+            "media": "Kontakt",
             "about": "Über uns",
             "showreels": "Showreels",
             "gallery": "Galerie",
-            "resume": "Lebenslauf"
+            "resume": "Dienstleistungen"
         },
         "about": {
             "title": "ÜBER MICH!",
-            "desc": "Meine Patienten nennen mich Dr. B. Ich bin ein zertifizierter Urologe und Roboterchirurg. Derzeit bin ich Geschäftsführer der PUR-Klinik (Personalisierte Urologie & Robotik) am South Lake Hospital & Orlando Health. Ich habe einen TEDx-Vortrag gehalten und bin weiterhin Gesundheitsexperte und Beitragender für lokale und nationale Medien. Ich bin Mitbegründer der gemeinnützigen Initiative Drive 4 Men's Health, die Männer dazu ermutigt, sich besser zu ernähren, aktiv zu sein und sich präventiven medizinischen Untersuchungen zu unterziehen, um Jahre zum Leben hinzuzufügen, eine Meile nach der anderen.",
+            "desc": "Ich bin Hikmət İsmayılov und arbeite seit 2012 als Uro-Onkologe in Deutschland. Ich habe am Universitätsklinikum Heidelberg, am Stadtkrankenhaus Eberbach und später an der Ostfildern Medius-Klinik während meiner Facharztausbildung gearbeitet. Danach war ich als Facharzt für Uro-Onkologie am Städtischen Krankenhaus Mönchengladbach tätig. Seit 2023 arbeite ich als beratender Uro-Onkologe im Krankenhaus Bad-Mergentheim.   Im Jahr 2022 habe ich in Deutschland eine zusätzliche Qualifikation in `Medikamentöse Tumortherapie` erlangt.",
             "button": "Lebenslauf anzeigen"
         },
         "contact": {
@@ -93,6 +150,25 @@
             "email": "E-Mail",
             "message": "Nachricht",
             "send": "Senden"
+        },
+        "services": {
+            "title": "Untersuchungs- und Behandlungsrichtungen",
+            "serviceArray": [
+                "Prostatahyperplasie-Operationen (TUR-P, HoLEP, ThuLEP, Urolift, Rezum, offene Enukleation)",
+                "Diagnostik und minimalinvasive chirurgische Behandlung von Blasen-, Harnleiter- und Nierenkrebs",
+                "Diagnostik, Chemotherapie und Immuntherapie bei metastasierendem Blasen-, Harnleiter- und Nierenkrebs",
+                "Hormonelle, chemotherapeutische und chirurgische Behandlung bei Prostatakrebs",
+                "Operationen bei Nierenkrebs",
+                "Immuntherapie und Chemotherapie bei metastasierendem Nierenkrebs",
+                "Diagnostik und chirurgische Behandlung von Hodenkrebs",
+                "Diagnostik und Chemotherapie bei metastasierendem Hodenkrebs",
+                "Operationen bei Harnwegssteinen (Nierensteine, Harnleitersteine, Blasensteine)",
+                "Diagnose und chirurgische Behandlung von Harnwegsstenosen",
+                "Diagnose und Operationen bei Harninkontinenz",
+                "Kinderurologie (konservativ und operativ)",
+                "Chirurgische Eingriffe für Transgender-Personen und andere",
+                "Diagnose und chirurgische Behandlung von Harnröhrenstenosen"
+            ]
         }
     }
 }

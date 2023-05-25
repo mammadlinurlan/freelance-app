@@ -10,29 +10,19 @@ function App() {
 
   return (
     <>
-
-<Router>
-<languageContext.Provider value={{ lang, setLang }}>
-
-<Navbar />
-
-  <Routes>
-   <Route  path='/'  element={
-<Index/>
-
-   }/>
-
-  </Routes>
-</languageContext.Provider>
-    </Router>
-
+      <Router>
+        <languageContext.Provider value={{ lang, setLang }}>
+          <Navbar />
+          <Routes>
+            <Route path='/' element={
+              <Index />
+            } />
+          </Routes>
+        </languageContext.Provider>
+      </Router>
     </>
-   
-
   );
 }
 
 export default App;
 
-        // <Routes>
-        // </Routes>

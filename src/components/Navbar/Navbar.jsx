@@ -12,6 +12,13 @@ export const Navbar = () => {
     const [isOpen, setIsOpen] = React.useState(false)
     const LANG = useContext(languageContext)
 
+    const handleClickScroll = (word) => {
+        const element = document.getElementById(`${word}`);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <header>
             <nav className="container">
@@ -53,36 +60,36 @@ export const Navbar = () => {
                 </div>
                 <div className="nav-right col-lg-5">
                     <ul>
-                        <li>
+                        <li onClick={() => { handleClickScroll('home') }} style={{ color: 'black' }}>
                             <a>
                                 {DATA[`${String(LANG.lang)}`].navbar.home}
                             </a>
                         </li>
-                        <li>
+                        <li onClick={() => { handleClickScroll('contactus') }} style={{ color: 'black' }}>
                             <a>
                                 {DATA[`${String(LANG.lang)}`].navbar.media}
 
                             </a>
                         </li>
-                        <li>
-                            <a>
+                        <li style={{ color: 'black' }}>
+                            <a onClick={() => { handleClickScroll('aboutsection') }}>
                                 {DATA[`${String(LANG.lang)}`].navbar.about}
 
                             </a>
                         </li>
-                        <li>
+                        <li onClick={() => { handleClickScroll('videos') }} style={{ color: 'black' }}>
                             <a>
                                 {DATA[`${String(LANG.lang)}`].navbar.showreels}
 
                             </a>
                         </li>
-                        <li>
+                        <li onClick={() => { handleClickScroll('galleryid') }} style={{ color: 'black' }}>
                             <a>
                                 {DATA[`${String(LANG.lang)}`].navbar.gallery}
 
                             </a>
                         </li>
-                        <li>
+                        <li onClick={() => { handleClickScroll('serviceid') }} style={{ color: 'black' }}>
                             <a>
                                 {DATA[`${String(LANG.lang)}`].navbar.resume}
 
@@ -132,7 +139,7 @@ export const Navbar = () => {
                     <span style={{ color: LANG.lang == 'de' ? '#0097e6' : 'black' }} onClick={() => {
                         LANG.setLang('de')
                     }}> DE</span>
-                    <img src="https://static.wixstatic.com/media/406cca_d8dbd28a6a994dc583210adfd2fdcae8~mv2_d_2133_2133_s_2.png/v1/crop/x_0,y_890,w_2133,h_342/fill/w_560,h_90,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo%20design-01.png" />
+                    {/* <img src="https://static.wixstatic.com/media/406cca_d8dbd28a6a994dc583210adfd2fdcae8~mv2_d_2133_2133_s_2.png/v1/crop/x_0,y_890,w_2133,h_342/fill/w_560,h_90,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo%20design-01.png" /> */}
                 </div>
                 <div style={{ width: isOpen ? '60%' : '0%', visibility: isOpen ? 'visible' : 'hidden', opacity: isOpen ? '100%' : '0%' }} className="navOpen">
                     <div className="container">
@@ -140,6 +147,7 @@ export const Navbar = () => {
                             <li>
                                 <a onClick={() => {
                                     setIsOpen(!isOpen)
+                                    handleClickScroll('home') 
                                 }}>
                                     {DATA[`${String(LANG.lang)}`].navbar.home}
 
@@ -148,6 +156,7 @@ export const Navbar = () => {
                             <li>
                                 <a onClick={() => {
                                     setIsOpen(!isOpen)
+                                    handleClickScroll('contactus')
                                 }}>
                                     {DATA[`${String(LANG.lang)}`].navbar.media}
 
@@ -156,6 +165,7 @@ export const Navbar = () => {
                             <li>
                                 <a onClick={() => {
                                     setIsOpen(!isOpen)
+                                    handleClickScroll('aboutsection') 
                                 }}>
                                     {DATA[`${String(LANG.lang)}`].navbar.about}
 
@@ -164,6 +174,7 @@ export const Navbar = () => {
                             <li>
                                 <a onClick={() => {
                                     setIsOpen(!isOpen)
+                                    handleClickScroll('videos')
                                 }}>
                                     {DATA[`${String(LANG.lang)}`].navbar.showreels}
 
@@ -172,6 +183,7 @@ export const Navbar = () => {
                             <li>
                                 <a onClick={() => {
                                     setIsOpen(!isOpen)
+                                    handleClickScroll('galleryid')
                                 }}>
                                     {DATA[`${String(LANG.lang)}`].navbar.gallery}
 
@@ -180,7 +192,8 @@ export const Navbar = () => {
                             <li>
                                 <a onClick={() => {
                                     setIsOpen(!isOpen)
-                                }} href="">
+                                    handleClickScroll('serviceid')
+                                }} >
                                     {DATA[`${String(LANG.lang)}`].navbar.resume}
 
                                 </a>
