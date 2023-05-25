@@ -42,7 +42,7 @@ export const Navbar = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="" target="_blank">
+                            <a href="https://wa.me/4915735710442" target="_blank">
                                 <ImWhatsapp color="#10ac84" />
 
                             </a>
@@ -56,7 +56,8 @@ export const Navbar = () => {
                     </ul>
                 </div>
                 <div className="nav-center col-lg-4">
-
+                    <img src="/logomtest.png"/>
+                    
                 </div>
                 <div className="nav-right col-lg-5">
                     <ul>
@@ -124,23 +125,7 @@ export const Navbar = () => {
                     }}
                     />
                 </div>
-                <div className="mobileLogoImage">
-                    <span
-                        style={{ color: LANG.lang == 'az' ? '#0097e6' : 'black' }}
-                        onClick={() => {
-                            LANG.setLang('az')
-                        }}>AZ | </span>
-                    <span style={{ color: LANG.lang == 'en' ? '#0097e6' : 'black' }} onClick={() => {
-                        LANG.setLang('en')
-                    }}> EN | </span>
-                    <span style={{ color: LANG.lang == 'ru' ? '#0097e6' : 'black' }} onClick={() => {
-                        LANG.setLang('ru')
-                    }}> RU | </span>
-                    <span style={{ color: LANG.lang == 'de' ? '#0097e6' : 'black' }} onClick={() => {
-                        LANG.setLang('de')
-                    }}> DE</span>
-                    {/* <img src="https://static.wixstatic.com/media/406cca_d8dbd28a6a994dc583210adfd2fdcae8~mv2_d_2133_2133_s_2.png/v1/crop/x_0,y_890,w_2133,h_342/fill/w_560,h_90,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo%20design-01.png" /> */}
-                </div>
+             
                 <div style={{ width: isOpen ? '60%' : '0%', visibility: isOpen ? 'visible' : 'hidden', opacity: isOpen ? '100%' : '0%' }} className="navOpen">
                     <div className="container">
                         <ul >
@@ -203,6 +188,23 @@ export const Navbar = () => {
 
                 </div>
             </nav>
+            <div className="mobileLogoImage">
+                    <span
+                        style={{ color: LANG.lang == 'az' ? '#0097e6' : 'black' }}
+                        onClick={() => {
+                            LANG.setLang('az')
+                        }}>AZ | </span>
+                    <span style={{ color: LANG.lang == 'en' ? '#0097e6' : 'black' }} onClick={() => {
+                        LANG.setLang('en')
+                    }}> EN | </span>
+                    <span style={{ color: LANG.lang == 'ru' ? '#0097e6' : 'black' }} onClick={() => {
+                        LANG.setLang('ru')
+                    }}> RU | </span>
+                    <span style={{ color: LANG.lang == 'de' ? '#0097e6' : 'black' }} onClick={() => {
+                        LANG.setLang('de')
+                    }}> DE</span>
+                    <img src="/logomtest.png" />
+                </div>
         </header>
     )
 }

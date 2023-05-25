@@ -56,7 +56,7 @@ export const Contact = () => {
                                 <a href="https://www.instagram.com/doc.ismayilov/?hl=en" target="_blank"><BsInstagram /></a>
                                 <a href="https://www.linkedin.com/in/hikmat-ismayilov-aa8460a0/" target="_blank"><AiFillLinkedin /></a>
                             </div>
-                            <a id="wphref" href="" target="_blank">
+                            <a id="wphref" href="https://wa.me/4915735710442" target="_blank">
                                 {<ImWhatsapp/>} Whatsapp
                             </a>
                         </div>
