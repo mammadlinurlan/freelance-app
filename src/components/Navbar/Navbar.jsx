@@ -56,7 +56,7 @@ export const Navbar = () => {
                     </ul>
                 </div>
                 <div className="nav-center col-lg-4">
-                    <img src="/logomtest.png"/>
+                    <img src="/lastlogo.png"/>
                     
                 </div>
                 <div className="nav-right col-lg-5">
@@ -203,7 +203,7 @@ export const Navbar = () => {
                     <span style={{ color: LANG.lang == 'de' ? '#0097e6' : 'black' }} onClick={() => {
                         LANG.setLang('de')
                     }}> DE</span>
-                    <img src="/logomtest.png" />
+                    <img src="/lastlogo.png" />
                 </div>
         </header>
     )
