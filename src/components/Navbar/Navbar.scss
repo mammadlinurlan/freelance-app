@@ -26,11 +26,12 @@ header {
             // background-position: center;
             display: flex;
             justify-content: center;
-            height: 100%;
+            align-items: center;
+            height: 75%;
            img{
-            width: 75%;
-            height: 100%;
-            object-fit: cover;
+            width: 100%;
+            height: 75px;
+            object-fit: contain;
            }
             // background-size: cover;
             // background-image: url('https://static.wixstatic.com/media/406cca_d8dbd28a6a994dc583210adfd2fdcae8~mv2_d_2133_2133_s_2.png/v1/crop/x_0,y_890,w_2133,h_342/fill/w_560,h_90,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo%20design-01.png');

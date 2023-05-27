@@ -30,7 +30,7 @@ export const Navbar = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/hikmatismayilov" target="_blank">
+                            <a href="https://twitter.com/hikmatismayilav" target="_blank">
                                 <ImTwitter color="#48dbfb" />
 
                             </a>

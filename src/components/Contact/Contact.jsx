@@ -52,7 +52,7 @@ export const Contact = () => {
                             </div> */}
                             <div className="contact-icons">
                                 <a href="https://www.facebook.com/profile.php?id=100071974267605" target="_blank"><ImFacebook /></a>
-                                <a href="https://twitter.com/hikmatismayilov" target="_blank"><ImTwitter /></a>
+                                <a href="https://twitter.com/hikmatismayilav" target="_blank"><ImTwitter /></a>
                                 <a href="https://www.instagram.com/doc.ismayilov/?hl=en" target="_blank"><BsInstagram /></a>
                                 <a href="https://www.linkedin.com/in/hikmat-ismayilov-aa8460a0/" target="_blank"><AiFillLinkedin /></a>
                             </div>
