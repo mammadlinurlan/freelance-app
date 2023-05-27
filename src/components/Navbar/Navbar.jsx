@@ -103,16 +103,22 @@ export const Navbar = () => {
                         style={{ color: LANG.lang == 'az' ? '#0097e6' : 'black' }}
                         onClick={() => {
                             LANG.setLang('az')
-                        }}>AZ | </span>
+                        }}>AZ | 
+                        <img src="/azflag.png"/>
+                        </span>
                     <span style={{ color: LANG.lang == 'en' ? '#0097e6' : 'black' }} onClick={() => {
                         LANG.setLang('en')
-                    }}> EN | </span>
+                        
+                    }}> EN | 
+                    <img src="/enflag.png"/></span>
                     <span style={{ color: LANG.lang == 'ru' ? '#0097e6' : 'black' }} onClick={() => {
                         LANG.setLang('ru')
-                    }}> RU | </span>
+                    }}> RU | 
+                    <img src="/rusflag.png"/></span>
                     <span style={{ color: LANG.lang == 'de' ? '#0097e6' : 'black' }} onClick={() => {
                         LANG.setLang('de')
-                    }}> DE</span>
+                    }}> DE
+                    <img src="/deflag.png"/></span>
                 </div>
                 <div className="mobileNavbar col-lg-0 col-sm-6 col-6">
 
@@ -193,16 +199,24 @@ export const Navbar = () => {
                         style={{ color: LANG.lang == 'az' ? '#0097e6' : 'black' }}
                         onClick={() => {
                             LANG.setLang('az')
-                        }}>AZ | </span>
+                        }}>AZ | 
+                        <img src="/azflag.png"/>
+                        </span>
                     <span style={{ color: LANG.lang == 'en' ? '#0097e6' : 'black' }} onClick={() => {
                         LANG.setLang('en')
-                    }}> EN | </span>
+                    }}> EN | 
+                        <img src="/enflag.png"/>
+                    </span>
                     <span style={{ color: LANG.lang == 'ru' ? '#0097e6' : 'black' }} onClick={() => {
                         LANG.setLang('ru')
-                    }}> RU | </span>
+                    }}> RU | 
+                        <img src="/rusflag.png"/>
+                    </span>
                     <span style={{ color: LANG.lang == 'de' ? '#0097e6' : 'black' }} onClick={() => {
                         LANG.setLang('de')
-                    }}> DE</span>
+                    }}> DE
+                        <img src="/deflag.png"/>
+                    </span>
                     <img src="/lastlogo.png" />
                 </div>
         </header>

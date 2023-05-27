@@ -11,13 +11,13 @@
     .forAboutImage {
         display: flex;
         justify-content: center;
-        height: 65%;
+        height:80%;
         position: relative;
         .borderOnly {
             border: 10px white solid;
             position: absolute;
             z-index: 1;
-            top: 5%;
+            top: 0%;
             height: 69.6%;
 
         }

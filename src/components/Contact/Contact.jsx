@@ -45,11 +45,11 @@ export const Contact = () => {
                     </div>
                     <div className="contact-bottom col-lg-12 col-12">
                         <div className="contact-left col-lg-5 col-12">
-                            <div className="telmail">
+                            {/* <div className="telmail">
                                 <h1>{DATA[`${LANG.lang}`].contact.secTitle}</h1>
                                 <p>testmail@gmail.com</p>
                                 <p>Tel : +994(55)-555-55-55</p>
-                            </div>
+                            </div> */}
                             <div className="contact-icons">
                                 <a href="https://www.facebook.com/profile.php?id=100071974267605" target="_blank"><ImFacebook /></a>
                                 <a href="https://twitter.com/hikmatismayilov" target="_blank"><ImTwitter /></a>

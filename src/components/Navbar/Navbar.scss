@@ -55,6 +55,15 @@ header {
             cursor: pointer;
             font-size: 14px;
             font-weight: 500;
+            span{
+                display: flex;
+                flex-direction: column;
+                img{
+                    width: 12px;
+                    object-fit: cover;
+                    height: 100%;
+                }
+            }
         }
         .nav-right {
             ul {
@@ -63,9 +72,9 @@ header {
                 list-style: none;
                 display: flex;
                 justify-content: space-around;
-                font-weight: 500;
+                font-weight: 800;
                 a {
-                    letter-spacing: -0.1px;
+                    letter-spacing: 1px;
                     transition: 0.2s ease-in-out;
                     opacity: 70%;
                     font-size: 14px;
@@ -144,6 +153,15 @@ header {
     }
     .mobileLogoImage{
         display: block !important;
+    }
+    // .mobileLogoImage span{
+    //     display: flex;
+    //     flex-direction: column;
+    // }
+    .mobileLogoImage span img{
+        height: 12px;
+        width: 12px;
+        object-fit: cover;
     }
     header{
         position: relative;

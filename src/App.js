@@ -6,7 +6,7 @@ import { Index } from './components/Index/Index';
 import { languageContext } from './hooks';
 import { useContext, useEffect, useState } from 'react';
 function App() {
-  const [lang, setLang] = useState('en')
+  const [lang, setLang] = useState('az')
 
   return (
     <>
