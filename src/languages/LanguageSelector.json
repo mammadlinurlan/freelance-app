@@ -9,8 +9,8 @@
             "resume": "Xidmətlər"
         },
         "about": {
-            "title": "MƏN HAQQINDA!",
-            "desc": "Mən Hikmət İsmayılov 2012-ci ildən etibarən Almaniyada uro-onkoloq olaraq çalışıram. “Heidelberg Universitet klinikasında”, “Eberbach şəhər xəstəxanasın”-da daha sonra “Ostfildern Medius-Klinikasın”da rezedentura keçdikdən sonra “Mönchengladbach şəhər xəstəxanasın”-da yüksək ixtisaslı (Facharzt) uro-onkoloq olaraq işləmişəm. 2023cü ildən etibarən “Bad-Mergentheim xəstəxanasın”-da məsləhətçi uro-onkoloq çalışıram. 2022-ci ildə Almaniyada “Medikamentoz xərçəng terapiyası” (Zusatzbezeichnung Medikamentöse Tumortherapie) əlavə kvalifikasiya qazanmışam.",
+            "title": "MƏNİM HAQQIMDA!",
+            "desc": "Mən Hikmət İsmayılov 2012-ci ildən etibarən Almaniyada uro-onkoloq olaraq çalışıram. “Heidelberg Universitet klinikasında”, “Eberbach şəhər xəstəxanasın”-da daha sonra “Ostfildern Medius-Klinikasın”da rezedentura keçdikdən sonra “Mönchengladbach şəhər xəstəxanasın”-da yüksək ixtisaslı (Facharzt) uro-onkoloq olaraq işləmişəm. 2023cü ildən etibarən “Bad-Mergentheim xəstəxanasın”-da məsləhətçi uro-onkoloq olaraq çalışıram. 2022-ci ildə Almaniyada “Medikamentoz xərçəng terapiyası” (Zusatzbezeichnung Medikamentöse Tumortherapie) əlavə kvalifikasiya qazanmışam.",
             "button": "Özgeçmişi gör"
         },
         "contact": {
@@ -37,7 +37,7 @@
                 "Sidik yolları daralmaları diaqnostikası və cərrahiyəsi",
                 "Sidik qaçırma diaqnostikası və əməliyyatları",
                 "Uşaq urologiyası (konservativ və operativ)",
-                "Xarici cinsiyyət üzvləri üçün cərrahiyə və digərləri",
+                "Uşaqlarda və böyüklərdə xarici cinsiyyət (sünnət, hipospadiya, hidrozele, enməmiş xaya, ) üzvləri cərrahiyəsi ",
                 "Sidik yolları darlıqları diaqnostikası və cərrahi müalicəsi"
             ]
         }
@@ -53,11 +53,11 @@
         },
         "about": {
             "title": "ABOUT ME!",
-            "desc": "I am Hikmət İsmayılov, and since 2012, I have been working as a uro-oncologist in Germany. I worked at Heidelberg University Clinic, Eberbach City Hospital, and later at Ostfildern Medius Clinic during my residency. After that, I worked as a specialist uro-oncologist (Facharzt) at Mönchengladbach City Hospital. Since 2023, I have been working as a consultant uro-oncologist at Bad-Mergentheim Hospital. In 2022, I obtained an additional qualification in `Medicamentous Cancer Therapy` (Zusatzbezeichnung Medikamentöse Tumortherapie) in Germany.",
+            "desc" : "I have been working as a uro-oncologist in Germany since 2012. After completing my residency at the 'Heidelberg University Clinic,' 'Eberbach City Hospital,' and later at the 'Ostfildern Medius Clinic,' I worked as a specialist uro-oncologist (Facharzt) at the 'Mönchengladbach City Hospital.' Since 2023, I have been working as a consulting uro-oncologist at the 'Bad-Mergentheim Hospital.' In 2022, I obtained an additional qualification in 'Medicated Cancer Therapy' (Zusatzbezeichnung Medikamentöse Tumortherapie) in Germany.",
             "button": "See Resume"
         },
         "contact": {
-            "title": "CONTACT US",
+            "title": "GET IN TOUCH",
             "secTitle": "CONTACT",
             "name": "Name",
             "subject": "Subject",
@@ -80,7 +80,7 @@
                 "Diagnosis and surgical treatment of Urinary Tract strictures",
                 "Diagnosis and surgeries for Urinary Incontinence",
                 "Pediatric Urology (conservative and operative)",
-                "Surgical procedures for Transgender individuals and others",
+                "Surgical treatment of external genitalia in children and adults, such as circumcision, hypospadias repair, hydrocele repair, undescended testicle surgery, etc.",
                 "Diagnosis and surgical treatment of Urethral strictures"
             ]
         }
@@ -96,7 +96,7 @@
         },
         "about": {
             "title": "ОБО МНЕ!",
-            "desc": "Меня зовут Хикмет Исмайылов, и с 2012 года я работаю уро-онкологом в Германии. Я работал в клинике университета Гайдельберга, городской больнице Эбербаха, а затем в клинике Медиус в городе Остфильдерн во время резидентуры. После этого я работал в городской больнице Мёнхенгладбах как высококвалифицированный уро-онколог (Facharzt). С 2023 года я работаю в больнице Бад-Мергентгайм в качестве консультанта-уро-онколога. В 2022 году я получил дополнительную квалификацию по `Медикаментозной терапии рака` (Zusatzbezeichnung Medikamentöse Tumortherapie) в Германии.",
+            "desc": "С 2012 года я работаю уроонкологом в Германии. После окончания резидентуры в клинике Университета Гейдельберга, Городской больнице Эбербаха и позднее в клинике Медиус в Остфильдерне, я работал в качестве специалиста-уроонколога (Facharzt) в Городской больнице Мёнхенгладбаха. С 2023 года я работаю в качестве консультационного уроонколога в Бад-Мергентхаймской больнице. В 2022 году я получил дополнительную квалификацию в области `медикаментозная терапия опухолей` (Zusatzbezeichnung Medikamentöse Tumortherapie) в Германии.",
             "button": "Посмотреть резюме"
         },
         "contact": {
@@ -123,7 +123,7 @@
                 "Диагностика и хирургическое лечение стенозов мочевыводящих путей",
                 "Диагностика и операции при недержании мочи",
                 "Детская урология (консервативное и оперативное лечение)",
-                "Хирургические операции для трансгендерных лиц и других",
+                "Хирургическое лечение внешних половых органов у детей и взрослых, таких как обрезание, коррекция гипоспадии, коррекция гидроцеле, хирургия неопущение яичек и другие процедуры",
                 "Диагностика и хирургическое лечение стенозов уретры"
             ]
         }
@@ -139,7 +139,7 @@
         },
         "about": {
             "title": "ÜBER MICH!",
-            "desc": "Ich bin Hikmət İsmayılov und arbeite seit 2012 als Uro-Onkologe in Deutschland. Ich habe am Universitätsklinikum Heidelberg, am Stadtkrankenhaus Eberbach und später an der Ostfildern Medius-Klinik während meiner Facharztausbildung gearbeitet. Danach war ich als Facharzt für Uro-Onkologie am Städtischen Krankenhaus Mönchengladbach tätig. Seit 2023 arbeite ich als beratender Uro-Onkologe im Krankenhaus Bad-Mergentheim.   Im Jahr 2022 habe ich in Deutschland eine zusätzliche Qualifikation in `Medikamentöse Tumortherapie` erlangt.",
+            "desc": "Ich arbeite seit 2012 als Uro-Onkologe in Deutschland. Nach Abschluss meiner Facharztausbildung an der `Universitätsklinik Heidelberg`, dem `Stadtkrankenhaus Eberbach` und später der `Medius-Klinik Ostfildern` habe ich als Facharzt für Uro-Onkologie im `Stadtkrankenhaus Mönchengladbach` gearbeitet. Seit 2023 arbeite ich als beratender Uro-Onkologe im `Krankenhaus Bad-Mergentheim`. Im Jahr 2022 habe ich eine Zusatzbezeichnung für Medikamentöse Tumortherapie bekommen.",
             "button": "Lebenslauf anzeigen"
         },
         "contact": {
@@ -166,7 +166,7 @@
                 "Diagnose und chirurgische Behandlung von Harnwegsstenosen",
                 "Diagnose und Operationen bei Harninkontinenz",
                 "Kinderurologie (konservativ und operativ)",
-                "Chirurgische Eingriffe für Transgender-Personen und andere",
+                "Chirurgische Behandlung der äußeren Genitalien bei Kindern und Erwachsenen, wie z. B. Beschneidung, Hypospadie-Korrektur, Hydrozelen-Korrektur, Operation bei Hodenhochstand usw.",
                 "Diagnose und chirurgische Behandlung von Harnröhrenstenosen"
             ]
         }

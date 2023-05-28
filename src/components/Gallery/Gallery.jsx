@@ -86,7 +86,6 @@ export const Gallery = () => {
                     })}
                 </div>
                 <a href='https://github.com/mammadlinurlan' target='_blank'>&copy; 2023 Developed by Mammadli Nurlan</a>
-
             </div>
         </div>
     )
